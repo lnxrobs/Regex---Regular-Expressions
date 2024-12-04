@@ -84,7 +84,9 @@
  
 ^(?:[A-Z]{3}[0-9]{1}[A-Z]{1}[0-9]{2}|[A-Z0-9]{7})$
 
+//Melhor opção com operador | (or) para validar Mercosul e Placa Cinza
 
+^(?:[A-Z]{3}[0-9]{1}[A-Z]{1}[0-9]{2}|[A-Z]{3}[0-9]{4})$
 
 //Validação do e-mail 
 
